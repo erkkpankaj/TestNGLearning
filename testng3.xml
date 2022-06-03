@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoanDepartment" verbose = "1">	
+<listeners>
+<listener class-name="analyzer.MyTransformer"/></listeners>
+	<test name="ReExeuction Of Failed TCs in TestNG">
+		<classes>
+			<class name="test.ReTryTest" />								
+		</classes>
+		</test>
+	</suite>  
+
